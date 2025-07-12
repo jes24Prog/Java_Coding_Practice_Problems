@@ -1,7 +1,5 @@
 # Java Coding Practice Problems
 
-Sharpen your Java skills with categorized problems. Each problem includes a description, example inputs/outputs, and a suggested filename for implementation.
-
 ---
 
 ## 🧵 String Problems
@@ -194,4 +192,3 @@ Sharpen your Java skills with categorized problems. Each problem includes a desc
 
 ---
 
-> 💡 All files should include a `main()` method for execution. Create a separate `tests` folder for JUnit test files if needed.
