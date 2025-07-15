@@ -348,20 +348,155 @@
 
 ## 📦 Data Structures
 
-### 1. Stack Using Array
+---
+
+### 🔗 Linked List
+
+#### 1. Implement Singly Linked List
+- **File:** `SinglyLinkedList.java`
+- **Instructions:** Create a custom `Node` class and implement a `SinglyLinkedList` class with methods to add, remove, search, and display nodes.
+- **Input:** `Add: 1 -> 2 -> 3`, `Remove: 2`
+- **Output:** `1 -> 3`
+
+#### 2. Detect Loop in Linked List
+- **File:** `DetectLoop.java`
+- **Instructions:** Use Floyd’s Cycle Detection Algorithm to detect if there’s a loop in a singly linked list.
+- **Input:** `Linked list with loop`
+- **Output:** `Loop detected`
+
+#### 3. Reverse a Linked List
+- **File:** `ReverseLinkedList.java`
+- **Instructions:** Write a function to reverse a singly linked list.
+- **Input:** `1 -> 2 -> 3 -> null`
+- **Output:** `3 -> 2 -> 1 -> null`
+
+---
+
+### 🧺 Stack
+
+#### 4. Implement Stack Using Array
 - **File:** `StackArray.java`
-- **Input:** `push(10), pop()`
+- **Instructions:** Create a `Stack` class that uses an array. Implement `push()`, `pop()`, `peek()`, and `isEmpty()`.
+- **Input:** `Push 5, Push 10, Pop`
 - **Output:** `10`
 
-### 2. Queue Using LinkedList
+#### 5. Evaluate Postfix Expression
+- **File:** `PostfixEvaluator.java`
+- **Instructions:** Write a method to evaluate a postfix expression using a stack.
+- **Input:** `Postfix: 2 3 * 5 +`
+- **Output:** `11`
+
+---
+
+### 🧮 Queue
+
+#### 6. Implement Queue Using Linked List
 - **File:** `QueueLinkedList.java`
-- **Input:** `enqueue(5), dequeue()`
+- **Instructions:** Implement `enqueue()`, `dequeue()`, `peek()`, and `isEmpty()` using a singly linked list.
+- **Input:** `Enqueue: 1, 2, 3`, `Dequeue`
+- **Output:** `1`
+
+#### 7. Circular Queue
+- **File:** `CircularQueue.java`
+- **Instructions:** Implement a circular queue using an array with fixed size and handle overflow/underflow conditions.
+- **Input:** `Add: 1, 2, 3, Remove, Add 4`
+- **Output:** `Queue: 2, 3, 4`
+
+---
+
+### 🌳 Tree
+
+#### 8. Binary Tree Traversals
+- **File:** `BinaryTreeTraversal.java`
+- **Instructions:** Implement in-order, pre-order, and post-order traversal for a binary tree.
+- **Input:** `Tree: [1, 2, 3, 4, 5]`
+- **Output:** `In-order: 4 2 5 1 3`
+
+#### 9. Height of Binary Tree
+- **File:** `BinaryTreeHeight.java`
+- **Instructions:** Write a recursive method to calculate the height of a binary tree.
+- **Input:** `Tree: [1, 2, 3]`
+- **Output:** `Height: 2`
+
+#### 10. Check if Binary Tree is Balanced
+- **File:** `BalancedTreeChecker.java`
+- **Instructions:** Check if the given binary tree is height-balanced.
+- **Input:** `Unbalanced binary tree`
+- **Output:** `False`
+
+---
+
+### 📊 HashMap / HashSet
+
+#### 11. Find First Non-Repeating Character
+- **File:** `FirstUniqueChar.java`
+- **Instructions:** Use a `HashMap` to find the first non-repeating character in a string.
+- **Input:** `String: "swiss"`
+- **Output:** `"w"`
+
+#### 12. Count Duplicates in Array
+- **File:** `DuplicateCounter.java`
+- **Instructions:** Count and print duplicate elements using `HashMap`.
+- **Input:** `[1, 2, 2, 3, 3, 3]`
+- **Output:** `2: 2 times, 3: 3 times`
+
+---
+
+### 🛣️ Graph
+
+#### 13. Graph Implementation (Adjacency List)
+- **File:** `GraphAdjList.java`
+- **Instructions:** Implement a graph using an adjacency list. Add methods to add vertices, add edges, and print the graph.
+- **Input:** `Add edge: A-B`
+- **Output:** `A: [B], B: [A]`
+
+#### 14. BFS Traversal
+- **File:** `GraphBFS.java`
+- **Instructions:** Perform BFS traversal starting from a given node.
+- **Input:** `Graph: A-B-C`, `Start: A`
+- **Output:** `A -> B -> C`
+
+#### 15. DFS Traversal
+- **File:** `GraphDFS.java`
+- **Instructions:** Perform DFS traversal starting from a given node using recursion.
+- **Input:** `Graph: A-B-C`, `Start: A`
+- **Output:** `A -> B -> C`
+
+---
+
+### 📈 Heap / PriorityQueue
+
+#### 16. Kth Largest Element in Array
+- **File:** `KthLargestElement.java`
+- **Instructions:** Use a min-heap (PriorityQueue) to find the kth largest element.
+- **Input:** `Array: [3,2,1,5,6,4], k=2`
 - **Output:** `5`
 
-### 3. LRU Cache
-- **File:** `LRUCache.java`
-- **Input:** `put(1,1), put(2,2), get(1), put(3,3)`
-- **Output:** `Evicts key 2`
+#### 17. Merge K Sorted Lists
+- **File:** `MergeKSortedLists.java`
+- **Instructions:** Merge k sorted linked lists into one sorted list using a priority queue.
+- **Input:** `[[1,4,5],[1,3,4],[2,6]]`
+- **Output:** `[1,1,2,3,4,4,5,6]`
+
+---
+
+### 🔠 Trie
+
+#### 18. Implement Trie (Prefix Tree)
+- **File:** `Trie.java`
+- **Instructions:** Create a `Trie` with `insert()`, `search()`, and `startsWith()` methods.
+- **Input:** `Insert: "apple"`, `Search: "app"`
+- **Output:** `true` for prefix match
+
+---
+
+### 📚 Set
+
+#### 19. Find Intersection of Two Arrays
+- **File:** `ArrayIntersection.java`
+- **Instructions:** Use `HashSet` to return the intersection of two integer arrays.
+- **Input:** `[1,2,2,1]`, `[2,2]`
+- **Output:** `[2]`
 
 ---
 
