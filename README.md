@@ -222,17 +222,127 @@
 
 ---
 
-## 🧱 Object-Oriented Programming (OOP)
+## 🧱 Object-Oriented Programming (OOP) Problems
 
-### 1. Bank Account System
+---
+
+### 1. Create a Bank Account Class
 - **File:** `BankAccount.java`
-- **Input:** `deposit(1000)`, `withdraw(300)`
-- **Output:** `Balance: 700`
+- **Instructions:** Create a class `BankAccount`.
+- **Input:** `Deposit: 500`, `Withdraw: 200`
+- **Output:** `Balance: 300`
 
-### 2. Shape Area (Inheritance)
+---
+
+### 2. Implement a Student Management System
+- **File:** `StudentManagement.java`
+- **Instructions:** Create a `Student` class with `id`, `name`, and `grade`. Add a method to print student details. Then, in another class, manage a list of students and support adding, removing, and listing students.
+- **Input:** `Add student: John, ID: 1, Grade: A`
+- **Output:** `Student Added: John (1), Grade: A`
+
+---
+
+### 3. Design an Employee Inheritance Structure
+- **File:** `EmployeeInheritance.java`
+- **Instructions:** Create a base class `Employee` with common attributes. Then create subclasses `Manager` and `Developer` that extend `Employee` and override a `getRole()` method.
+- **Input:** `Create Developer and Manager objects`
+- **Output:** `Developer: Alice`, `Manager: Bob`
+
+---
+
+### 4. Library Book System with Encapsulation
+- **File:** `LibraryBook.java`
+- **Instructions:** Create a `Book` class with private fields: `title`, `author`, and `available`. Add getters/setters and a method to `borrow()` or `return()` the book.
+- **Input:** `Borrow 'Clean Code'`
+- **Output:** `Borrowed successfully`
+
+---
+
+### 5. Shape Area using Abstraction
 - **File:** `ShapeArea.java`
-- **Input:** `Circle(3)`, `Rectangle(2, 4)`
-- **Output:** `Area: 28.27, 8`
+- **Instructions:** Create an abstract class `Shape` with an abstract method `getArea()`. Implement subclasses `Circle` and `Rectangle` and override the `getArea()` method.
+- **Input:** `Circle radius: 2`, `Rectangle: 2x3`
+- **Output:** `Area of Circle: 12.56`, `Area of Rectangle: 6`
+
+---
+
+### 6. Animal Sound Using Polymorphism
+- **File:** `AnimalSound.java`
+- **Instructions:** Create a base class `Animal` with a method `makeSound()`. Extend it with `Dog` and `Cat`, and override `makeSound()` to print their respective sounds.
+- **Input:** `Call makeSound() on Dog and Cat`
+- **Output:** `Woof`, `Meow`
+
+---
+
+### 7. Interface Example: Vehicle
+- **File:** `VehicleInterface.java`
+- **Instructions:** Create a `Vehicle` interface with methods `start()` and `stop()`. Implement it in classes `Car` and `Bike`.
+- **Input:** `Start and stop car and bike`
+- **Output:** `Car started`, `Bike stopped`
+
+---
+
+### 8. Constructor Overloading
+- **File:** `ConstructorOverloading.java`
+- **Instructions:** Create a `Book` class with overloaded constructors for setting different combinations of fields like title, author, and year.
+- **Input:** `new Book("Java Basics")`, `new Book("Java", "John", 2020)`
+- **Output:** Printed Book details with different constructors
+
+---
+
+### 9. Static Members Usage
+- **File:** `StaticExample.java`
+- **Instructions:** Demonstrate use of static variables and methods in a class. Track number of objects created using a static counter.
+- **Input:** `Create 3 objects`
+- **Output:** `Total objects: 3`
+
+---
+
+### 10. Method Overloading Example
+- **File:** `MethodOverloading.java`
+- **Instructions:** Create a class `Calculator` that overloads the method `add()` to support 2 or 3 integer parameters.
+- **Input:** `add(2,3)`, `add(1,2,3)`
+- **Output:** `5`, `6`
+
+---
+
+### 11. Real-World Example: Shopping Cart System
+- **File:** `ShoppingCart.java`
+- **Instructions:** Create `Product`, `CartItem`, and `Cart` classes. The cart should support adding products, calculating totals, and printing receipt.
+- **Input:** `Add 2x Phone ($500), 1x Charger ($50)`
+- **Output:** `Total: $1050`
+
+---
+
+### 12. Abstract Class vs Interface Demo
+- **File:** `AbstractVsInterface.java`
+- **Instructions:** Demonstrate the difference between abstract classes and interfaces using a `Payment` abstract class and a `DigitalPayable` interface.
+- **Input:** `Call pay() on CreditCard and PayPal`
+- **Output:** `Paid via CreditCard`, `Paid via PayPal`
+
+---
+
+### 13. Encapsulation with Validation
+- **File:** `UserProfile.java`
+- **Instructions:** Create a `UserProfile` class with fields `username`, `age`, `email` and use setters with input validation (e.g., age must be ≥ 13).
+- **Input:** `Set age = 10`
+- **Output:** `Invalid age! Must be ≥ 13`
+
+---
+
+### 14. Composition vs Inheritance
+- **File:** `CompositionVsInheritance.java`
+- **Instructions:** Create a `Person` class that has an `Address` object (composition). Also create an `Employee` class that extends `Person`.
+- **Input:** `Create Employee with address`
+- **Output:** `Employee John lives at 123 Street`
+
+---
+
+### 15. Override `toString()` Method
+- **File:** `ToStringOverride.java`
+- **Instructions:** Create a class and override its `toString()` method to return a custom string format.
+- **Input:** `Print object`
+- **Output:** `Person{name='John', age=30}`
 
 ---
 
